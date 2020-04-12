@@ -17,6 +17,8 @@ ec.order.extraFields.nombre = {
     'checkoutDisplaySection': 'shipping_address'
 };
 
+Ecwid.refreshConfig();
+
 ec.order.extraFields.nit = {
     'title': 'Número de NIT',
     'textPlaceholder': 'Package sign',
@@ -25,6 +27,8 @@ ec.order.extraFields.nit = {
     'required': false,
     'checkoutDisplaySection': 'shipping_address'
 };
+
+Ecwid.refreshConfig();
 
 ec.order.extraFields.direccion = {
     'title': 'Dirección',
@@ -35,4 +39,4 @@ ec.order.extraFields.direccion = {
     'checkoutDisplaySection': 'shipping_address'
 };
 
-ec.refreshConfig();
+Ecwid.refreshConfig();
