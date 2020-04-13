@@ -3,7 +3,7 @@
 
 // Initialize the application
 ec.init({
-    app_id: "custom-app-25612030-1", // use your application client_id
+    app_id: "custom-app-25612030-1", // client_id
     autoloadedflag: true, 
     autoheight: true
   });
