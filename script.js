@@ -1,6 +1,3 @@
-<!-- Include Ecwid JS SDK -->
-<script src="https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/js/1.2.5/ecwid-app.js"></script>
-
 // Initialize the application
 ec.init({
     app_id: "custom-app-25612030-1", 
