@@ -1,4 +1,4 @@
-import ec from "https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/js/1.2.5/ecwid-app.js";
+import ec from "./test.mjs";
 
 // Initialize the application
 ec.init({
