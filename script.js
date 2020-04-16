@@ -6,7 +6,7 @@ script.type = 'text/javascript';
 script.onload = function() {
     callFunctionFromScript();
 }
-script.src = './test.js';
+script.src = 'https://ecwid-app-nit.now.sh/test.js';
 head.appendChild(script);
 
 // Initialize the application
