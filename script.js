@@ -320,7 +320,7 @@ window.EcwidApp = window.EcwidApp || createEcwidSDK()
 
 
 // Initialize the application
-ec.init({
+createEcwidSDK.init({
     app_id: "custom-app-25612030-1", 
     autoloadedflag: true, 
     autoheight: true
@@ -340,10 +340,10 @@ if (storeData.app_state !== undefined){
     var appState = storeData.app_state;
 }
 
-ec.order = ec.order || {};
-ec.order.extraFields = ec.order.extraFields || {};
+createEcwidSDK.order = createEcwidSDK.order || {};
+createEcwidSDK.order.extraFields = createEcwidSDK.order.extraFields || {};
 
-ec.order.extraFields.nombre = {
+createEcwidSDK.order.extraFields.nombre = {
     'title': 'Nombre para la factura',
     'textPlaceholder': 'Nombre para la factura',
     'type': 'text',
@@ -354,7 +354,7 @@ ec.order.extraFields.nombre = {
 
 Ecwid.refreshConfig();
 
-ec.order.extraFields.nit = {
+createEcwidSDK.order.extraFields.nit = {
     'title': 'Número de NIT',
     'textPlaceholder': 'Package sign',
     'type': 'text',
@@ -365,7 +365,7 @@ ec.order.extraFields.nit = {
 
 Ecwid.refreshConfig();
 
-ec.order.extraFields.direccion = {
+createEcwidSDK.order.extraFields.direccion = {
     'title': 'Dirección',
     'textPlaceholder': 'Package sign',
     'type': 'text',
