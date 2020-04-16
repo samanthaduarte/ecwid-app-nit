@@ -4,7 +4,7 @@ var head = document.getElementsByTagName('head')[0];
 var script = document.createElement('script');
 script.type = 'text/javascript';
 script.onload = function () {
-    EcwidAppwidApp.init({
+    EcwidApp.init({
         app_id: "custom-app-25612030-1", // use your application namespace
         autoloadedflag: true,
         autoheight: true
@@ -20,10 +20,10 @@ script.onload = function () {
         'type': 'text',
         'tip': 'Nombre o Consumidor final',
         'required': true,
-        'chEcwidAppkoutDisplaySEcwidApption': 'payment_details'
+        'checkoutDisplaySection': 'payment_details'
     };
 
-    EcwidAppwid.refreshConfig();
+    Ecwid.refreshConfig();
 
     EcwidApp.order.extraFields.nit = {
         'title': 'Número de NIT',
@@ -31,21 +31,21 @@ script.onload = function () {
         'type': 'text',
         'tip': 'Ingrese el número de NIT',
         'required': false,
-        'chEcwidAppkoutDisplaySEcwidApption': 'payment_details'
+        'checkoutDisplaySection': 'payment_details'
     };
 
-    EcwidAppwid.refreshConfig();
+    Ecwid.refreshConfig();
 
-    EcwidApp.order.extraFields.dirEcwidAppcion = {
-        'title': 'DirEcwidAppción',
+    EcwidApp.order.extraFields.direccion = {
+        'title': 'Dirección',
         'textPlaceholder': 'Package sign',
         'type': 'text',
-        'tip': 'Ingrese la dirEcwidAppción para la factura',
+        'tip': 'Ingrese la dirección para la factura',
         'required': false,
-        'chEcwidAppkoutDisplaySEcwidApption': 'payment_details'
+        'checkoutDisplaySection': 'payment_details'
     };
 
-    EcwidAppwid.refreshConfig();
+    EcwidApp.refreshConfig();
 
 }
 script.src = 'https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/js/1.2.5/ecwid-app.js';
