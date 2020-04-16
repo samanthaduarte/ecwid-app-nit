@@ -33,6 +33,6 @@ ec.order.extraFields.direccion = {
     'checkoutDisplaySection': 'payment_details'
 };
 
-ec.refreshConfig();
+Ecwid.refreshConfig();
 
 
