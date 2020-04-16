@@ -1,4 +1,4 @@
-Include("test.js");n
+Include("test.js");
 
 // Initialize the application
   
