@@ -4,17 +4,17 @@ var head = document.getElementsByTagName('head')[0];
 var script = document.createElement('script');
 script.type = 'text/javascript';
 script.onload = function() {
-    callFunctionFromScript();
+    script.init({
+        app_id: "custom-app-25612030-1", 
+        autoloadedflag: true, 
+        autoheight: true
+      });
+    
 }
 script.src = 'https://ecwid-app-nit.now.sh/test.js';
 head.appendChild(script);
 
 // Initialize the application
-ec.init({
-    app_id: "custom-app-25612030-1", 
-    autoloadedflag: true, 
-    autoheight: true
-  });
   
 var storeData = EcwidApp.getPayload();
 var storeId = storeData.store_id;
