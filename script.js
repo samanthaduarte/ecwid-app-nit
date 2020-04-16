@@ -12,20 +12,6 @@ script.onload = function() {
 }
 script.src = 'https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/js/1.2.5/ecwid-app.js';
 head.appendChild(script);
-  
-var storeData = EcwidApp.getPayload();
-var storeId = storeData.store_id;
-var accessToken = storeData.access_token;
-var language = storeData.lang;
-var viewMode = storeData.view_mode;
-
-if (storeData.public_token !== undefined){
-    var publicToken = storeData.public_token;
-}
-
-if (storeData.app_state !== undefined){
-    var appState = storeData.app_state;
-}
 
 ec.order = ec.order || {};
 ec.order.extraFields = ec.order.extraFields || {};
