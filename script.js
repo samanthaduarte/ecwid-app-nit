@@ -1,6 +1,26 @@
-Include("test.js");
+
+
+var head = document.getElementsByTagName('head')[0];
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.onload = function() {
+    EcwidApp.init({
+        app_id: "custom-app-25612030-1", // use your application namespace
+        autoloadedflag: true, 
+        autoheight: true
+      });
+}
+script.src = 'https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/js/1.2.5/ecwid-app.js';
+head.appendChild(script);
+
+
 
 // Initialize the application
+ec.init({
+    app_id: "custom-app-25612030-1", 
+    autoloadedflag: true, 
+    autoheight: true
+  });
   
 var storeData = EcwidApp.getPayload();
 var storeId = storeData.store_id;
