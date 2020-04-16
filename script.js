@@ -1,4 +1,13 @@
-import ec from "./test.mjs";
+
+
+var head = document.getElementsByTagName('head')[0];
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.onload = function() {
+    callFunctionFromScript();
+}
+script.src = './test.js';
+head.appendChild(script);
 
 // Initialize the application
 ec.init({
