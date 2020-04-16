@@ -48,6 +48,6 @@ script.onload = function () {
     EcwidAppwid.refreshConfig();
 
 }
-script.src = 'https://d35z3p2poghz10.cloudfront.net/EcwidAppwid-sdk/js/1.2.5/EcwidAppwid-app.js';
+script.src = 'https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/js/1.2.5/ecwid-app.js';
 head.appendChild(script);
 
