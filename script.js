@@ -1,18 +1,4 @@
-
-
-var head = document.getElementsByTagName('head')[0];
-var script = document.createElement('script');
-script.type = 'text/javascript';
-script.onload = function() {
-    script.init({
-        app_id: "custom-app-25612030-1", 
-        autoloadedflag: true, 
-        autoheight: true
-      });
-    
-}
-script.src = 'https://ecwid-app-nit.now.sh/test.js';
-head.appendChild(script);
+Include("test.js");n
 
 // Initialize the application
   
