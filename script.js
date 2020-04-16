@@ -12,15 +12,6 @@ script.onload = function() {
 }
 script.src = 'https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/js/1.2.5/ecwid-app.js';
 head.appendChild(script);
-
-
-
-// Initialize the application
-ec.init({
-    app_id: "custom-app-25612030-1", 
-    autoloadedflag: true, 
-    autoheight: true
-  });
   
 var storeData = EcwidApp.getPayload();
 var storeId = storeData.store_id;
