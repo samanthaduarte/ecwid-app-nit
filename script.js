@@ -6,6 +6,7 @@ ec.order.extraFields.nombre = {
     'title': 'Nombre para la factura',
     'textPlaceholder': 'Nombre o Consumidor Final',
     'type': 'text',
+    'tip': ' ',
     'required': true,
     'checkoutDisplaySection': 'payment_details'
 };
@@ -16,6 +17,7 @@ ec.order.extraFields.nit = {
     'title': 'Número de NIT',
     'textPlaceholder': 'Ingrese el número de NIT',
     'type': 'text',
+    'tip': ' ',
     'required': false,
     'checkoutDisplaySection': 'payment_details'
 };
@@ -26,6 +28,7 @@ ec.order.extraFields.direccion = {
     'title': 'Dirección',
     'textPlaceholder': 'Ingrese la dirección para la factura',
     'type': 'text',
+    'tip': ' ',
     'required': false,
     'checkoutDisplaySection': 'payment_details'
 };
