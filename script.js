@@ -4,9 +4,9 @@ ec.order.extraFields = ec.order.extraFields || {};
 
 ec.order.extraFields.nombre = {
     'title': 'Nombre para la factura',
-    'textPlaceholder': 'Nombre para la factura',
+    'textPlaceholder': 'Nombre o Consumidor final',
     'type': 'text',
-    'tip': 'Nombre o Consumidor final',
+    'tip': '',
     'required': true,
     'checkoutDisplaySection': 'payment_details'
 };
@@ -15,9 +15,9 @@ Ecwid.refreshConfig();
 
 ec.order.extraFields.nit = {
     'title': 'Número de NIT',
-    'textPlaceholder': 'Package sign',
+    'textPlaceholder': 'Ingrese el número de NIT',
     'type': 'text',
-    'tip': 'Ingrese el número de NIT',
+    'tip': '',
     'required': false,
     'checkoutDisplaySection': 'payment_details'
 };
@@ -26,9 +26,9 @@ Ecwid.refreshConfig();
 
 ec.order.extraFields.direccion = {
     'title': 'Dirección',
-    'textPlaceholder': 'Package sign',
+    'textPlaceholder': 'Ingrese la dirección para la factura',
     'type': 'text',
-    'tip': 'Ingrese la dirección para la factura',
+    'tip': '',
     'required': false,
     'checkoutDisplaySection': 'payment_details'
 };
