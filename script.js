@@ -11,7 +11,7 @@ ec.order.extraFields.nombre = {
     'checkoutDisplaySection': 'payment_details'
 };
 
-Ecwid.refreshConfig();
+ec.refreshConfig();
 
 ec.order.extraFields.nit = {
     'title': 'Número de NIT',
@@ -22,7 +22,7 @@ ec.order.extraFields.nit = {
     'checkoutDisplaySection': 'payment_details'
 };
 
-Ecwid.refreshConfig();
+ec.refreshConfig();
 
 ec.order.extraFields.direccion = {
     'title': 'Dirección',
@@ -33,6 +33,6 @@ ec.order.extraFields.direccion = {
     'checkoutDisplaySection': 'payment_details'
 };
 
-Ecwid.refreshConfig();
+ec.refreshConfig();
 
 
