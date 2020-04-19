@@ -1,4 +1,6 @@
-// Initialize extra fields
+Ecwid.OnAPILoaded.add(function() {
+    console.log("Ecwid storefront JS API has loaded");
+    // Initialize extra fields
 ec.order = ec.order || {};
 ec.order.extraFields = ec.order.extraFields || {};
 
@@ -11,7 +13,7 @@ ec.order.extraFields.nombre = {
     'checkoutDisplaySection': 'payment_details'
 };
 
-ec.refreshConfig();
+Ecwid.refreshConfig();
 
 ec.order.extraFields.nit = {
     'title': 'Número de NIT',
@@ -22,7 +24,7 @@ ec.order.extraFields.nit = {
     'checkoutDisplaySection': 'payment_details'
 };
 
-ec.refreshConfig();
+Ecwid.refreshConfig();
 
 ec.order.extraFields.direccion = {
     'title': 'Dirección',
@@ -33,6 +35,9 @@ ec.order.extraFields.direccion = {
     'checkoutDisplaySection': 'payment_details'
 };
 
-ec.refreshConfig();
+Ecwid.refreshConfig();
+});
+
+
 
 
